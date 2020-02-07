@@ -11,10 +11,15 @@ A user may undeo each move, up until the beginning of the game where there are z
 
 Once the board is full, the player(s) may choose press the 'Play Again' button, resulting in a reset of the board.
 
-<h4>Note:<h4>
-The game may be played either locally or on Heroku. If you choose to play on Heroku, please note that due to the poetry API using 
-HTTP instead of HTTPS, your browser will not display the poetry on the right-hand side panel unless you allow unsafe scripts.
+<h4>Note:</h4>
+The game may be played either locally or on Heroku.
+
+If you choose to play on Heroku, please note that due to the poetry API using HTTP instead of HTTPS, your browser will not display 
+the poetry on the right-hand side panel unless you allow unsafe scripts.
+
 As such, it is recommended you play the game locally.
+
+If you still would like to play this game on Herokue, please visit: https://react-connect-4-and-poetry.herokuapp.com/
 <!-- /DESCRIPTION -->
 
 <!-- Download/ -->
