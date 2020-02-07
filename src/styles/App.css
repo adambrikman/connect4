@@ -1,0 +1,7 @@
+.App {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+
+  /* Attribution: Background obtained from SVGBackgrounds.com */
+  background-image: url(./bg.svg);
+}

@@ -1,0 +1,57 @@
+.Game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 9vh;
+  margin-top: 2rem;
+}
+
+.Game-title {
+  position: absolute;
+  left: 50%;
+  top: 5%; 
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.Game-over {
+  position: absolute;
+  left: 50%;
+  bottom: 1%; 
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 22px;
+}
+
+.btn {
+    border: none;
+    width: 250px;
+    height: 45px;
+    font-size:30px;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow:  3px 10px lightblue;
+    background: linear-gradient(rgb(76, 102, 164),rgb(66, 92, 154));
+    background: -webkit-linear-gradient(rgb(76, 102, 164),rgb(66, 92, 154));
+    border-bottom:lightblue;
+    border-radius:4px;
+}
+
+.btn:hover {
+  background:rgb(86, 112, 174);
+}
+
+.btn:active {
+  box-shadow:  3px 7px lightblue;
+  margin-top: 3px;
+  margin-bottom: -3px;
+  background:rgb(51, 77, 139);
+}
+
+.btn-container {
+    margin-left: -17rem;
+    margin-top: 4rem;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap'); */

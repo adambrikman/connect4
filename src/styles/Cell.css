@@ -1,0 +1,16 @@
+.Cell {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: white;
+  opacity: 1;
+  transition: background-color 0.7s ease;
+}
+
+.Cell-red {
+  background-color: orangered;
+}
+
+.Cell-blue {
+  background-color: rgb(76, 102, 164);
+}

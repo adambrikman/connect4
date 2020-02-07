@@ -1,0 +1,30 @@
+.PoetryBox {
+    display: flex;
+    width: 15rem;
+    height: 23rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow: scroll;
+  }
+  
+  .PoetryBox-poems {
+    padding: 5px;
+    background: white;
+    animation: fadeInOpacity .3s ease-in 1;
+  }
+  
+  .container {
+    padding: 8.5rem 20px 0 20px;
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
