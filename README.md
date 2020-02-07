@@ -7,7 +7,7 @@ React app built to simulate a Connect 4 game - however, the rules are that the g
 
 Chip colors alternate between red & blue. During each move, the app pulls JSON data from http://poetrydb.org/author/Shakespeare.
 
-A user may undeo each move, up until the beginning of the game where there are zero chips on the game board/tray.
+A user may undo each move, up until the beginning of the game where there are zero chips on the game board/tray.
 
 Once the board is full, the player(s) may choose press the 'Play Again' button, resulting in a reset of the board.
 
@@ -19,7 +19,7 @@ the poetry on the right-hand side panel unless you allow unsafe scripts.
 
 As such, it is recommended you play the game locally.
 
-If you still would like to play this game on Herokue, please visit: https://react-connect-4-and-poetry.herokuapp.com/
+If you still would like to play this game on Heroku, please visit: https://react-connect-4-and-poetry.herokuapp.com/
 <!-- /DESCRIPTION -->
 
 <!-- Download/ -->
