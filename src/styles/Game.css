@@ -18,7 +18,7 @@
 .Game-over {
   position: absolute;
   left: 50%;
-  bottom: 1%; 
+  bottom: 5%; 
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: 22px;
@@ -53,5 +53,3 @@
     margin-left: -17rem;
     margin-top: 4rem;
 }
-
-/* @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap'); */

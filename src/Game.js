@@ -59,7 +59,7 @@ export default class Game extends Component {
 
                     this.getPoem();
 
-                    isBoardFull = currBoard.every(row => row.every(cell => cell !== 0));
+                    isBoardFull = this.isGameBoardFull(currBoard);
 
                     this.setState({
                         currPlayerNumber: nextPlayerNumber,
@@ -73,7 +73,10 @@ export default class Game extends Component {
             }
             return chipCoordinate;
         }
+    }
 
+    isGameBoardFull(board) {
+        return board.every(row => row.every(cell => cell !== 0));
     }
 
     // Create the game board stored in state
@@ -88,13 +91,17 @@ export default class Game extends Component {
     undoMove() {
         let { history, poems } = this.state;
 
+        // Unde move if there are one or more chips in the tray
         if (history.length > 1) {
             let reducedHistoryByOne = history.slice(0, history.length - 1);
             let prevPlayer = this.alternatePlayer(this.state.currPlayerNumber);
 
+            let isBoardFull = this.isGameBoardFull(reducedHistoryByOne[reducedHistoryByOne.length - 1].trays);
+
             this.setState({
                 history: reducedHistoryByOne,
-                currPlayerNumber: prevPlayer
+                currPlayerNumber: prevPlayer,
+                gameOver: isBoardFull
             })
         }
 
